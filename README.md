@@ -7,7 +7,7 @@ Base Docker Image to run Nginx server with php5
 ## Available Configuration Parameters
 The following flags are a list of all the currently supported options that can be changed by passing in the variables to docker with the -e flag.
 
-- GIT_REPO : URL to the repository containing your source code. If you are using a personal token, this is the https URL without https://, e.g github.com/project/ for ssh prepend with git@ e.g git@github.com:project.git
+- *GIT_REPO* : URL to the repository containing your source code. If you are using a personal token, this is the https URL without https://, e.g github.com/project/ for ssh prepend with git@ e.g git@github.com:project.git
 - GIT_BRANCH : Select a specific branch (optional)
 - GIT_EMAIL : Set your email for code pushing (required for git to work)
 - GIT_NAME : Set your name for code pushing (required for git to work)
